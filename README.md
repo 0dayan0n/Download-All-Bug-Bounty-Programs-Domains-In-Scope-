@@ -1,10 +1,18 @@
-# watch video and lookup for mass scans you can perform on this.
-FULL Video:
+#### Commands:
+
+```shell
+cat domains.txt | awk -F '.' '{print $(NF-1)"."$NF}' | grep -Eo '([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}' | sort -u > main_domains
+```
+```shell
+ grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' domains.txt > ips.txt
+```
+
+# Watch video and lookup for mass scans you can perform on this
+Full Video:
+
+[![Youtube Video](http://img.youtube.com/vi/8kOMwPGWXbU/0.jpg)](https://www.youtube.com/shorts/8kOMwPGWXbU)
 
 #### This repository is for educational purposes only
-- 🎆 cat domains.txt | awk -F '.' '{print $(NF-1)"."$NF}' | grep -Eo '([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}' | sort -u > main_domains
-- 🎆 grep -Eo '\b([0-9]{1,3}\.){3}[0-9]{1,3}\b' domains.txt > ips.txt
-
 
 # DISCLAIMER 📛 
 - This repository is for ethical purposes and to use the scripts to learn and improve in python :)
