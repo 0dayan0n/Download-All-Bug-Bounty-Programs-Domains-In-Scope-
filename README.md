@@ -1,13 +1,9 @@
-# Download-All-Bug-Bounty-Programs-Domains-In-Scope-
-Get a full list of domains from active bug bounty programs across platforms like HackerOne, Bugcrowd, Intigriti, and more – all in one place!
-
 # watch video and lookup for mass scans you can perform on this.
 telegram: https://t.me/zer0dayanon
 web: https://aboutme.info  
 Discord Channel: https://discord.gg/htb
 
 FULL Video:
-
 
 #### This repository is for educational purposes only
 
